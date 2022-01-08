@@ -1,6 +1,5 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import { FaGithub, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import Icon from '../components/IconButton';
 
 const HomePage = () => {
