@@ -1,5 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
+import { FaGithub, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import Icon from '../components/IconButton';
 
 const HomePage = () => {
@@ -50,7 +51,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="col-span-4 m-auto hidden md:inline mt-12 ">
-              <img src="https://avatars.githubusercontent.com/u/29797712" />
+              <img alt="Farid Nizam" src="https://avatars.githubusercontent.com/u/29797712" />
             </div>
           </div>
         </div>
