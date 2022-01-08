@@ -33,7 +33,7 @@ const HomePage = () => {
             <div className="col-span-12 md:col-span-8 sm:pt-10 sm:px-8 p-5 ">
               <p className="font-bold sm:text-4xl text-2xl  text-black">Hi, I am Farid</p>
               <p className="font-semibold sm:text-2xl text-xl text-black">Network Engineering</p>
-              <p className="font-normal sm:text-xl text-md text-black mt-2">I'm a who can code and network, but the internet allows me to do anything. ❤️</p>
+              <p className="font-normal sm:text-xl text-md text-black mt-2">I&apos;m a who can code and network, but the internet allows me to do anything. ❤️</p>
               <div className="flex-row gap-2 flex m-auto justify-center md:justify-start align-middle md:px-0 p-5">
                 <Icon url="https://github.com/faridnizam" color="white">
                   <i className="fab fa-github fa-lg"></i>
@@ -50,7 +50,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="col-span-4 m-auto hidden md:inline mt-12 ">
-              <img className="" src="https://avatars.githubusercontent.com/u/29797712" />
+              <img src="https://avatars.githubusercontent.com/u/29797712" />
             </div>
           </div>
         </div>
