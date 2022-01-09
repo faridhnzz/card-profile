@@ -9,9 +9,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && yarn sitemap",
+    "export": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -29,6 +31,8 @@
     "@types/react": "17.0.38",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
+    "next-pwa": "^5.4.4",
+    "next-sitemap": "^1.6.261",
     "typescript": "4.5.4"
   }
 }

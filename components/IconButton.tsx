@@ -8,7 +8,7 @@ const IconButton = ({ color, url, children }: { color: 'white'; url: string; chi
   return (
     <a href={url} rel="noopener noreferrer" target="_blank">
       <div className={colorClass()}>
-        <p className=" font-bold text-sm sm:text-base md:text-lg text-center">{children}</p>
+        <p className="font-bold text-sm sm:text-base md:text-lg text-center">{children}</p>
       </div>
     </a>
   );

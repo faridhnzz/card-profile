@@ -1,5 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
+import config from '../config.json';
 import Icon from '../components/IconButton';
 
 const HomePage = () => {
@@ -8,9 +9,9 @@ const HomePage = () => {
       <NextSeo
         title="Farid Nizam | Network Engineering"
         description="I'm a who can code and network, but the internet allows me to do anything. ❤️"
-        canonical="https://farid.cyou/"
+        canonical={config.siteUrl}
         openGraph={{
-          url: 'https://farid.cyou/',
+          url: config.siteUrl,
           title: 'Farid Nizam | Network Engineering',
           description: "I'm a who can code and network, but the internet allows me to do anything. ❤️",
           images: [
@@ -18,7 +19,7 @@ const HomePage = () => {
               url: 'https://cdn.statically.io/og/Farid%20Nizam.png',
             },
           ],
-          site_name: 'farid.cyou',
+          site_name: config.domain,
         }}
         twitter={{
           handle: '@faridhnzz',
@@ -49,8 +50,8 @@ const HomePage = () => {
                 </Icon>
               </div>
             </div>
-            <div className="col-span-4 m-auto hidden md:inline mt-12 ">
-              <img alt="Farid Nizam" src="https://avatars.githubusercontent.com/u/29797712" />
+            <div className="col-span-4 m-auto hidden md:inline ">
+              <img alt="Farid Nizam" className="rounded-full" src="https://avatars.githubusercontent.com/u/29797712" />
             </div>
           </div>
         </div>

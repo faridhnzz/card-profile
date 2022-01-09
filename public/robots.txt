@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /_next/static/
+
+# Host
+Host: https://www.farid.cyou
+
+# Sitemaps
+Sitemap: https://www.farid.cyou/sitemap.xml
