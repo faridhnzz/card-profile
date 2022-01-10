@@ -2,6 +2,8 @@
 
 <h3 align="center"><a href="https://card-profile-theta.vercel.app/" target="_blank">Try it out!</a></h3>
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffaridnizam%2Fcard-profile&project-name=card-profile&repo-name=card-profile)
+
 ## 💡 Features
 
 ---
@@ -15,9 +17,10 @@
 
 change siteUrl and domain in `config.json`
 
-building locally, you can start a server :
+you can start a server :
 
 ```bash
+# building locally
 $ yarn
 $ yarn dev
 
@@ -25,7 +28,7 @@ $ yarn dev
 $ yarn sitemap
 
 # deploy
-$ yarn prod:build
+$ yarn build
 ```
 
 ## 📄 License
