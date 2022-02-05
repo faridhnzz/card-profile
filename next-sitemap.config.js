@@ -6,13 +6,4 @@ module.exports = {
   priority: config.sitemap.priority,
   exclude: config.sitemap.exclude,
   generateRobotsTxt: config.generateRobotsTxt,
-  robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: '/_next/static/',
-      },
-    ],
-  },
 };
