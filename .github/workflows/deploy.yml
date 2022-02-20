@@ -18,10 +18,10 @@ jobs:
           node-version: '16.x'
 
       - name: Installing my packages
-        run: npm ci
+        run: yarn --ignore-engines
 
       - name: Build my App
-        run: npm run build && npm run export
+        run: yarn export
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
