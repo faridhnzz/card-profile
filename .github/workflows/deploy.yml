@@ -20,7 +20,7 @@ jobs:
       - name: Installing my packages
         run: yarn --ignore-engines
 
-      - name: Build my App
+      - name: Build App
         run: yarn export
 
       - name: Deploy 🚀
