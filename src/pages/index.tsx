@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
-import SEO from '../components/Seo';
+import Seo from '../components/Seo';
 import Main from '../components/Main';
 
 const Index: NextPage = () => {
   return (
     <>
-      <SEO />
+      <Seo />
       <Main />
     </>
   );
