@@ -1,4 +1,4 @@
-name: Export
+name: Manual Deploy
 
 on:
   workflow_dispatch:
