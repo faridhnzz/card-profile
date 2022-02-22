@@ -10,22 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎️
+      - name: 🛎️ Checkout
         uses: actions/checkout@v2.3.1
-      - name: Node.js
+
+      - name: 💻 Setup Node
         uses: actions/setup-node@v2
         with:
           node-version: '16.x'
 
-      - name: Installing my packages
+      - name: 🧶 Installing Packages
         run: yarn --ignore-engines
 
-      - name: Build App
+      - name: ⌛ Build App
         run: yarn export
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+      # - name: Deploy 🚀
+      #   uses: JamesIves/github-pages-deploy-action@4.1.0
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      #     BRANCH: pages
+      #     FOLDER: out
+
+      - name: 🚀 Deploy
+        uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
+          commit_message: '📌 Deploy at $(date)'
+          target_branch: pages
+          build_dir: out
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH: pages
-          FOLDER: out

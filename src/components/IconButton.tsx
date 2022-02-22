@@ -6,10 +6,8 @@ const IconButton = ({ color, url, children }: { color: 'white'; url: string; chi
   };
 
   return (
-    <a href={url} rel="noopener noreferrer" target="_blank">
-      <div className={colorClass()}>
-        <p className="font-bold text-sm sm:text-base md:text-lg text-center">{children}</p>
-      </div>
+    <a href={url} rel="noopener noreferrer nofollow" target="_blank">
+      <div className={`${colorClass()} font-bold text-xl sm:text-3xl md:text-[28px] text-center`}>{children}</div>
     </a>
   );
 };

@@ -33,7 +33,7 @@ const SEO = () => {
           },
           {
             rel: 'stylesheet',
-            href: 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css',
+            href: 'https://fontbit.io/css2?family=Saira:wght@100;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap',
           },
         ]}
         openGraph={{
