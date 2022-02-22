@@ -1,6 +1,15 @@
 /*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=300
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
+
+/_next/*
+  Cache-Control: public, max-age=2592000
+
+/*.png
+  Cache-Control: public, max-age=2592000
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
