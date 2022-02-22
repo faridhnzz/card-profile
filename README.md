@@ -15,9 +15,7 @@
 
 ---
 
-change siteUrl and domain in `config.json`
-
-you can start a server :
+Start a server :
 
 ```bash
 # building locally
