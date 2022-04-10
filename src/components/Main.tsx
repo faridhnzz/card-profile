@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import { FiGithub, FiInstagram, FiTwitter, FiMail, FiHome } from 'react-icons/fi';
-import Icon from './IconButton';
 
 const Main: NextPage = () => {
   return (
@@ -12,21 +11,15 @@ const Main: NextPage = () => {
             <h2 className="font-semibold sm:text-2xl text-xl text-black">Network Engineering</h2>
             <p className="font-Saira font-medium sm:text-xl text-md text-black mt-2">I&apos;m a who can code and network, but the internet allows me to do anything. ❤️</p>
             <div className="flex-row gap-2 flex m-auto justify-center md:justify-start align-middle md:px-0 p-5">
-              <Icon url="https://www.farid.cyou" color="white" rel="">
+              <a href="https://www.farid.cyou" target="_blank" className="icon-btn">
                 <FiHome />
-              </Icon>
-              <Icon url="https://github.com/faridnizam" color="white" rel="noopener noreferrer nofollow">
+              </a>
+              <a href="https://github.com/faridnizam" rel="noopener noreferrer" target="_blank" className="icon-btn">
                 <FiGithub />
-              </Icon>
-              {/* <Icon url="https://www.instagram.com/faridhnzz" color="white" rel="noopener noreferrer nofollow">
-                <FiInstagram />
-              </Icon>
-              <Icon url="https://twitter.com/faridhnzz" color="white" rel="noopener noreferrer nofollow">
-                <FiTwitter />
-              </Icon> */}
-              <Icon url="mailto:%6d%65%40%66%61%72%69%64%2e%63%79%6f%75" color="white" rel="noopener noreferrer nofollow">
+              </a>
+              <a href="mailto:%6d%65%40%66%61%72%69%64%2e%63%79%6f%75" rel="noopener noreferrer" target="_blank" className="icon-btn">
                 <FiMail />
-              </Icon>
+              </a>
             </div>
           </div>
           <div className="col-span-4 m-auto hidden md:inline ">
