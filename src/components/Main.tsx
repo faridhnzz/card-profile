@@ -11,13 +11,13 @@ const Main: NextPage = () => {
             <h2 className="font-semibold sm:text-2xl text-xl text-black">Network Engineering</h2>
             <p className="font-Saira font-medium sm:text-xl text-md text-black mt-2">I&apos;m a who can code and network, but the internet allows me to do anything. ❤️</p>
             <div className="flex-row gap-2 flex m-auto justify-center md:justify-start align-middle md:px-0 p-5">
-              <a href="https://www.farid.cyou" target="_blank" className="icon-btn">
+              <a href="https://www.farid.cyou" target="__blank" className="icon-btn">
                 <FiHome />
               </a>
-              <a href="https://github.com/faridnizam" rel="noopener noreferrer" target="_blank" className="icon-btn">
+              <a href="https://github.com/faridnizam" rel="noopener noreferrer nofollow" target="__blank" className="icon-btn">
                 <FiGithub />
               </a>
-              <a href="mailto:%6d%65%40%66%61%72%69%64%2e%63%79%6f%75" rel="noopener noreferrer" target="_blank" className="icon-btn">
+              <a href="mailto:%6d%65%40%66%61%72%69%64%2e%63%79%6f%75" rel="noopener noreferrer nofollow" target="__blank" className="icon-btn">
                 <FiMail />
               </a>
             </div>
